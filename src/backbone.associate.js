@@ -60,7 +60,7 @@
 
     // Check whether the supplied object matches the association type
     _isAssociatedType = function (association, obj) {
-      return (obj instanceof association.type);
+      return obj instanceof association.type;
     },
 
     // Builds an association
